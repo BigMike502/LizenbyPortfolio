@@ -340,3 +340,18 @@ template {
 [hidden] {
   display: none;
 }
+
+body {
+  background-color: #23af00;
+}
+
+@media only screen and (min-width: 400px) {
+  body {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  body {
+    background-color: black;
+  }
+}
