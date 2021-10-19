@@ -343,22 +343,19 @@ template {
 }
 
 body {
-  background-color: #06af00;
+  background-color: #fffbd4;
 }
 
-header > h1 {
-  color: white;
+header {
   font-family: Source Sans Pro;
-  font-weight: 600;
 }
 
-@media only screen and (min-width: 540px) {
-  body {
-    background-color: red;
-  }
+header > div > h1 {
+  font-weight: 600;
+  font-size: 3rem;
 }
-@media only screen and (min-width: 1000px) {
-  body {
-    background-color: black;
-  }
+
+header > div > p {
+  font-weight: 400;
+  font-size: 1.5rem;
 }
