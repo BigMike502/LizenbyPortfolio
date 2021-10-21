@@ -359,3 +359,11 @@ header > div > p {
   font-weight: 400;
   font-size: 1.5rem;
 }
+
+header > nav > ul {
+  list-style-type: none;
+}
+
+footer > div > ul > li {
+  list-style-type: none;
+}
