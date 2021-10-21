@@ -15,6 +15,12 @@ body {
 
 header {
   font-family: Source Sans Pro;
+  width: 100%;
+  margin: 25px auto;
+}
+
+#title{
+  float: left;
 }
 
 header > div > h1 {
@@ -22,16 +28,17 @@ header > div > h1 {
   font-size: 3rem;
 }
 
-header > div > p {
+header > div > h2 {
   font-weight: 400;
   font-size: 1.5rem;
 }
 
-header > nav > ul {
+nav {
+  float: right;
   list-style-type: none;
 }
 
-footer > div > ul > li {
+.social {
   list-style-type: none;
 }
 
@@ -40,9 +47,9 @@ footer > div > ul > li {
 */
 
 @media only screen and (min-width: 540px) {
-  body {
+  /* body {
     background-color: green;
-  }
+  } */
 }
 
 /* 
@@ -50,7 +57,7 @@ footer > div > ul > li {
  */
 
 @media only screen and (min-width: 1000px) {
-  body {
+  /* body {
     background-color: blue;
-  }
+  } */
 }
