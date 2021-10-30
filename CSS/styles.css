@@ -1,0 +1,61 @@
+/*---------- 
+GLOBAL
+----------*/
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*---------- 
+HEADER 
+----------*/
+
+
+
+/*---------- 
+NAV 
+----------*/
+
+nav ul {
+    margin: 0; 
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/*---------- 
+PORTFOLIO
+----------*/
+
+
+
+/*---------- 
+ABOUT-ME
+----------*/
+
+
+
+/*---------- 
+CONTACT-ME
+----------*/
+
+
+
+/*---------- 
+FOOTER
+----------*/
+
+footer{
+    color: black;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
