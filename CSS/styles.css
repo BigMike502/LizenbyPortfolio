@@ -2,7 +2,7 @@
 GLOBAL
 ----------*/
 
-*{
+body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -10,6 +10,14 @@ GLOBAL
 HEADER 
 ----------*/
 
+header {
+ border: 2px solid black;
+}
+
+header h1 {
+    font-weight: 700;
+    font-size:
+}
 
 
 /*---------- 
@@ -23,6 +31,7 @@ nav ul {
 
 nav li {
     list-style-type: none;
+    display: inline;
 }
 
 /*---------- 
@@ -58,4 +67,8 @@ footer ul {
 
 footer li {
     list-style-type: none;
+}
+
+footer li a {
+    color: black;
 }
