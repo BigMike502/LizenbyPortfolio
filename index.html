@@ -11,60 +11,78 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet"> 
-    <script type="text/javascript" src="script.js"></script>
     <script src="https://kit.fontawesome.com/786267e3c8.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <div class="page-title">
+    <header class="limited clearfix" id="top">
+        <div class="page-title-small page-title-med page-title-lrg clearfix">
             <h1>Kyle Lizenby</h1>
             <h2>Television Director</h2>
        </div>
-       <button class="hamburger" id="hamburger">
-        <i class="fas fa-bars"></i>
-       </button>
-       <nav style="display: block;">
+    </header>
+   
+    <nav class="limited nav-sml nav-med nav-lrg">
+        <button class="hamburgerBtn" id="hamburgerBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="primary-nav open" id="primary-nav">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#contact-me">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        
+         <section class="portfolio limited clearfix" id="portfolio">
+            <div>    
+                <h3 class="title">Portfolio</h3>
+                <div>
+                    Video Here
+                </div>
+                <div>
+                    Video Here
+                </div>
+                <div>
+                    Video Here
+                </div>
+                <div>
+                    Video Here
+                </div>
+                <div>
+                    Video Here
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me limited clearfix" id="about-me">
+            <div>    
+                <h3 class="title">About Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus quam at dolor lobortis tincidunt eu et ex. Nunc molestie nisi ac scelerisque pulvinar. Aliquam erat volutpat. Sed vitae magna diam. Integer non nisl ac ex luctus viverra. Morbi nunc lorem, gravida commodo consectetur vitae, ultrices a eros. Nunc volutpat, purus vel ullamcorper consequat, lacus arcu dictum lorem, vitae sodales tortor libero vitae justo. In maximus diam ac eleifend gravida. Pellentesque augue libero, accumsan id vehicula quis, lobortis nec magna. Proin vulputate metus vitae mollis sodales.</p>
+                
+                <p>Sed ullamcorper diam a elit gravida, a mollis urna tincidunt. Maecenas at diam non ante vehicula luctus. Proin nibh lectus, pulvinar vitae dapibus sit amet, molestie et mi. Donec suscipit orci vitae purus rutrum, quis vestibulum massa tempor. Pellentesque pretium imperdiet tortor sed laoreet. Nunc vestibulum eu libero a pulvinar. In vel bibendum eros, eget mattis diam. Cras efficitur, mauris nec posuere lacinia, massa mauris maximus nisi, porttitor semper arcu magna eu nisi. Nam feugiat lacinia sapien, at suscipit leo viverra id. Suspendisse luctus suscipit leo, porttitor lacinia justo finibus sed.</p>
+                
+                <p>Etiam felis tellus, dapibus eu arcu sed, iaculis ultricies augue. Sed at ullamcorper lectus, fermentum euismod turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vel tristique arcu, at faucibus leo. Nam hendrerit eleifend purus nec porta. Nam porttitor congue ligula, nec imperdiet diam viverra sit amet. Nulla at ultricies dui. Morbi facilisis malesuada accumsan. Donec turpis purus, blandit quis lacus nec, tincidunt auctor diam. Suspendisse et justo non orci vehicula porta convallis nec justo.</p>
+            </div>
+        </section>
+    
+        <section class="contact-me limited clearfix" id="contact-me">
+            <div>
+            <h3 class="title">Contact Me</h3>
+            </div>
+        </section>
+    </main>
+
+   <footer class="footer limited clearfix">
+        <div class="links">
             <ul>
+                <li><a href="#top">to top</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#contact-me">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    
-   <section class="portfolio" id="portfolio">
-       <h3>Portfolio</h3>
-       <div>
-            Video Here
-       </div>
-       <div>
-            Video Here
         </div>
-        <div>
-            Video Here
-        </div>
-        <div>
-            Video Here
-        </div>
-        <div>
-            Video Here
-        </div>
-   </section>
-   <section class="about-me" id="about-me">
-        <h3>About Me</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus quam at dolor lobortis tincidunt eu et ex. Nunc molestie nisi ac scelerisque pulvinar. Aliquam erat volutpat. Sed vitae magna diam. Integer non nisl ac ex luctus viverra. Morbi nunc lorem, gravida commodo consectetur vitae, ultrices a eros. Nunc volutpat, purus vel ullamcorper consequat, lacus arcu dictum lorem, vitae sodales tortor libero vitae justo. In maximus diam ac eleifend gravida. Pellentesque augue libero, accumsan id vehicula quis, lobortis nec magna. Proin vulputate metus vitae mollis sodales.</p>
-        
-        Sed ullamcorper diam a elit gravida, a mollis urna tincidunt. Maecenas at diam non ante vehicula luctus. Proin nibh lectus, pulvinar vitae dapibus sit amet, molestie et mi. Donec suscipit orci vitae purus rutrum, quis vestibulum massa tempor. Pellentesque pretium imperdiet tortor sed laoreet. Nunc vestibulum eu libero a pulvinar. In vel bibendum eros, eget mattis diam. Cras efficitur, mauris nec posuere lacinia, massa mauris maximus nisi, porttitor semper arcu magna eu nisi. Nam feugiat lacinia sapien, at suscipit leo viverra id. Suspendisse luctus suscipit leo, porttitor lacinia justo finibus sed.</p>
-        
-        Etiam felis tellus, dapibus eu arcu sed, iaculis ultricies augue. Sed at ullamcorper lectus, fermentum euismod turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vel tristique arcu, at faucibus leo. Nam hendrerit eleifend purus nec porta. Nam porttitor congue ligula, nec imperdiet diam viverra sit amet. Nulla at ultricies dui. Morbi facilisis malesuada accumsan. Donec turpis purus, blandit quis lacus nec, tincidunt auctor diam. Suspendisse et justo non orci vehicula porta convallis nec justo.</p>
-    </section>
-   <section class="contact-me" id="contact-me">
-       <h3>Contact Me</h3>
-       
-   </section>
-
-   <footer>
-       <div>
+        <div class="social">
            <ul>
                 <li><a href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
                 <li><a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
@@ -72,6 +90,6 @@
        </div>
    </footer>
    
-
+   <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
