@@ -95,7 +95,7 @@ HEADER
 
 .title-shift {
     float: right;
-    padding-right: 4rem;
+    padding-right: 4.5rem;
 }
 
 header .background-image {background-position-y: -200px;}
@@ -171,17 +171,15 @@ button{display:none;}
 
 .nav-lrg ul {
     justify-content: right;
-    padding-right: 6%;
+    padding-right: 4%;
 }
 
 .nav-lrg li {
     width:auto;
-    padding: 0 1.7rem
+    padding: 0 1.7rem;
 }
 
-.nav-lrg li:last-child {padding-right: 0;}
-.nav-sml li:hover {background-color: transparent;}
-.nav-sml a:hover {background-color: rgba(0, 0, 0, .25);}
+.nav-sml li:hover {background-color: rgba(0, 0, 0, .25);}
 
 }
 
@@ -274,7 +272,7 @@ footer{
 
 @media only screen and (min-width: 700px){
     
-    .links {padding: 3rem 0;}
+    .links {padding: 1rem 0;}
     
     .links ul {
         display: flex;
@@ -291,6 +289,14 @@ footer{
 
 @media only screen and (min-width: 1280px){
 
-
+    .links ul {
+        justify-content: center;
+    }
+    
+    .links li a {
+        font-size: 1.5rem;
+        display: inline;
+        padding: 0 1rem;
+    }
 
 }
