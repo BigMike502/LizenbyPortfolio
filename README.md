@@ -27,9 +27,10 @@ This is a Final Project for TV Director Freind Portfolio website.
         >Desktop - I disabled the flexbox and spaced out the text and aligned the <ul> group to the right so it is directly under the tittle of the page.  
 
     >>About Me (Styles.css Line:205)
-
-        
-
+        About-Me has diffrent views between the 3 states.  (I am using the "Lorem ipsum" for the moment, was not able to get about me information from the client.)
+        >Phone - All the photos are in 1 columb with a break for the paragraphs.  
+        >tablet - They are splitting the page 50% between one another.  used NthChild to balance out the padding between them all.
+        desktop - I made the 1st photo 100% width and made all the other 33.33% width so they are sharing the space.  
 
     >>Footer (Styles.css Line:224)
         Footer "Nav" Changes between all 3 states.  
