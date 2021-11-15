@@ -12,6 +12,8 @@ This is a Final Project for TV Director Freind Portfolio website.
 
     All paragraphs are at a 6% padding from the edge of the parrent by deafault. (left and right).
 
+    As I have been working in this project I have been looking at Edge, Firefox and Chrome.
+
 # CSS
 
     ## hamburgerBtn (Styles.css Line:114)
