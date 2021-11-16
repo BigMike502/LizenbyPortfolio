@@ -21,12 +21,13 @@ body {
     font-weight: 600;
     font-size: 2.5rem;
     padding: 5px;
+    margin: 2rem 0;
     background-image: linear-gradient(to right,#FDFFF0,rgba(104, 90, 70, .4),rgba(104, 90, 70, .4),#FDFFF0);
 }
 
 p {
     font-size: 1.4rem;
-    margin: 2rem 6%;
+    margin: 2rem 8%;
     text-align: justify;
 }
 
@@ -138,9 +139,7 @@ button#hamburgerBtn {
     padding: .5rem 0 .5rem 0 ;
 }
 
-.nav-sml li:nth-child(odd){
-    background-color: rgba(104, 90, 70, .2);
-}
+.nav-sml li:nth-child(odd){background-color: rgba(104, 90, 70, .2);}
 
 .nav-sml li:hover {background-color: rgba(0, 0, 0, .25);}
 
@@ -150,8 +149,6 @@ button#hamburgerBtn {
     cursor:pointer;
     width: 100%;
 }
-
-
 
 @media only screen and (min-width: 700px){
 
@@ -193,6 +190,44 @@ button{display:none;}
 PORTFOLIO
 ----------*/
 
+.portfolio .title {margin-top: 0;}
+
+.portfolio h4 {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+hr {
+    width: 50%;
+    margin: .5rem auto;
+    border: 2px solid rgba(104, 90, 70, 1);
+    border-radius: 1rem;
+}
+
+.portfolio h5 {
+    font-size: 1.5rem;
+}
+
+.video-frame {
+    margin: 1rem 6%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.ytube-vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(10px 10px 5px rgba(104, 90, 70, 1));
+}
 
 
 @media only screen and (min-width: 700px){
@@ -210,37 +245,33 @@ ABOUT-ME
 .aboutme-photo {
     height: auto;
     float: left;
-    /* border: 5px solid rgba(104, 90, 70, 1); */
     filter: drop-shadow(10px 10px 5px rgba(104, 90, 70, 1));
     padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
+.aboutme-photo:first-child {padding-top: 0;}
+
+.aboutme-photo:last-child {padding-bottom: 0;}
+
 .sml-photo {width: 100%;} 
 
+.about-me p:last-child {margin-bottom: 0;}
 
 @media only screen and (min-width: 700px){
 
-    .photo-group {
-        margin: 1rem 5%;
-    }
+    .photo-group {margin: 1rem 5%;}
 
     .med-photo {width: 50%;}
 
-    .aboutme-photo:nth-child(odd){
-        padding: 1rem 1rem 1rem 0;
-    }
+    .aboutme-photo:nth-child(odd){padding: 1rem 1rem 1rem 0;}
 
-    .aboutme-photo:nth-child(even){
-        padding: 1rem 0 1rem 1rem;
-    }
+    .aboutme-photo:nth-child(even){padding: 1rem 0 1rem 1rem;}
 
 }
 
 @media only screen and (min-width: 1280px){
 
-    .photo-group {
-        margin: 2rem 3%;
-    }
+    .photo-group {margin: 2rem 3%;}
 
     .med-photo {width: 33.333%;}
     
@@ -249,23 +280,17 @@ ABOUT-ME
         padding: 1rem 0;
     }
 
-    .aboutme-photo:nth-child(2) {
-        padding: 1rem 1rem 1rem 0;
-    }
+    .aboutme-photo:nth-child(2) {padding: 1rem 1rem 1rem 0;}
 
-    .aboutme-photo:nth-child(3) {
-        padding: 1rem .5rem 1rem .5rem ;
-    }
+    .aboutme-photo:nth-child(3) {padding: 1rem .5rem 1rem .5rem ;}
 
-    .aboutme-photo:nth-child(4) {
-        padding: 1rem 0 1rem 1rem;
-    }
+    .aboutme-photo:nth-child(4) {padding: 1rem 0 1rem 1rem;}
+
 }
 
 /*---------- 
 CONTACT-ME
 ----------*/
-
 
 
 @media only screen and (min-width: 700px){
@@ -339,9 +364,7 @@ footer{
 
 @media only screen and (min-width: 1280px){
 
-    .links ul {
-        justify-content: center;
-    }
+    .links ul {justify-content: center;}
     
     .links li a {
         font-size: 1.5rem;
