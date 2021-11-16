@@ -42,7 +42,7 @@
             <div>    
                 <h3 class="title clearfix">Portfolio</h3>
                 <div class="video-frame video-top">
-                    <h4>Thunder Over Louisville <br> 2016 <br> WDRB Media</h4>
+                    <h4>Thunder Over Louisville <br> 2016 <br>WDRB Media</h4>
                     <hr>
                     <h5>Assistant Director / Director</h5>
                     <div class="video-container">
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="video-frame video-bot">
-                    <h4>U of L Loss of <br> 2013 Mens Basketball Title</h4>
+                    <h4>U of L Loss of <br> 2013 Mens Basketball Title <br> WDRB Media</h4>
                     <hr>
                     <h5>Director</h5>
                     <div class="video-container ">
@@ -133,11 +133,44 @@
     
         <section class="contact-me limited clearfix" id="contact-me">
             <div>
-            <h3 class="title clearfix">Contact Me</h3>
+                <h3 class="title clearfix">Contact Me</h3>
             </div>
-            <div>
+            <div class="" id="contact-me-body">
+                <div class="contact-me-top">
+                    <h4>Give me a Shout!</h4>
+                    <hr>
+                    <h5>            
+                    Get in touch with me to see how <br>
+                    my services can better your broadcast. 
+                    </h5>
+                </div>
+                <form method="get" action="index.html">
+                    <section id="formProblem" class=""><p>There is an error with one of the fields.<br>Check highlights below.</p></section>
+                    <section id="fullName" class="">
+                        <label><div>Name*</div><input type="text" id="name" name="name" required></label>
+                        <span class="span-error">Please provide full Name</span>
+                    </section>  
+                    <section id="email" class="">
+                        <label><div>Email*</div><input type="text" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <span class="span-error">Please provide correct email address</span>
+                    </section>
+                    <section id="message" class="">
+                        <label><div>Message*</div><textarea name="message"></textarea></label>
+                        <span class="span-error">Please provide at least 10 characters in message field!</span>
+                    </section>
+                    <input type="submit" value="Send Message" class="submitBtn">
+                        
+                    
+                </form>
+            </div>
+            <div class="close" id="message-sent">
+                <h4>Your Message has been sent!</h4>
+                <hr>
+                <h5>I will get in touch with you 
+                <br> as soon as possible. 
+                <br> Thank You! </h5>
+            </div>
 
-            </div>
         </section>
     </main>
 
@@ -148,6 +181,7 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#contact-me">Contact</a></li>
+                <button type="button" onclick="">Send Message</button>
             </ul>
         </div>
         <div class="social">

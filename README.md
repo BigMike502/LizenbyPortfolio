@@ -20,7 +20,7 @@ This is a Final Project for TV Director Freind Portfolio website.
 ## CSS
 
     ### hamburgerBtn (Styles.css Line:XXX)
-    
+
         I have a hamburgerBtn in the Phone size of the site.
         It uses nth_child(odd) on the li of the ul to color the 1st and 3rd item in the menu.  Javascript info for hamburgerbtn is below in Javascript
         
@@ -44,6 +44,8 @@ This is a Final Project for TV Director Freind Portfolio website.
             #### Now the .video-container!
                 The Position:Relative is creating an anchor for for the .ytube-vid absolute property.   I made the width of this container 100% within the Video-Frame DIV.
                 padding-bottom: 56.25%; Helps Create a 16:9 Aspect Ratio so the video iframe render correctly and apears. 
+
+        This section I did not make any changes between the 3 sizes because this is the main point behind this section.  The only thing that really does change is text size and some formating.
             
     ### About Me (Styles.css Line:XXX)
 
@@ -52,6 +54,11 @@ This is a Final Project for TV Director Freind Portfolio website.
         #### Phone - All the photos are in 1 columb with a break for the paragraphs.  
         #### tablet - They are splitting the page 50% between one another.  used NthChild to balance out the padding between them all.
         #### desktop - I made the 1st photo 100% width and made all the other 33.33% width so they are sharing the space.  
+
+    ### Contact Me (Styles.css Line:XXX)
+        The Form has 2 diffrent scales and is also centered thoughout.
+        Phone has a width of 21rem for the phone and the tablet and the desktop have a width of 35rem.  I did not want to use %'s with the form because it just did not look wright.
+        between Javascipt and css I will be making a verification script for the form.
 
     ### Footer (Styles.css Line:XXX)
 
@@ -69,4 +76,4 @@ This is a Final Project for TV Director Freind Portfolio website.
         The button when pushed has javascript looking for a button press for the hamburgerBtn and when it sees the button pressed it will then call the javascript function (toggleMenu) to have it add a class of "Open" to the nav ul to open the menu.  When you click (touch) on it again it disapears.
 
     ### nav
-        After the menu is open and you click on a menu item. I wrote a script that will then remove the "Open" class from the primary-nav ID class list.  
+        After the menu is open and you click on a menu item. I wrote a script that will then remove the "Open" class from the primary-nav ID class list.
