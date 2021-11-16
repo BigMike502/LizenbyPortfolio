@@ -21,13 +21,13 @@ body {
     font-weight: 600;
     font-size: 2.5rem;
     padding: 5px;
-    margin: 2rem 0;
+    margin: 3rem 0;
     background-image: linear-gradient(to right,#FDFFF0,rgba(104, 90, 70, .4),rgba(104, 90, 70, .4),#FDFFF0);
 }
 
 p {
     font-size: 1.4rem;
-    margin: 2rem 8%;
+    margin: 2rem 14%;
     text-align: justify;
 }
 
@@ -204,20 +204,19 @@ hr {
     border-radius: 1rem;
 }
 
-.portfolio h5 {
-    font-size: 1.5rem;
-}
+.portfolio h5 {font-size: 1.5rem;}
 
-.video-frame {
-    margin: 1rem 6%;
-}
+.video-frame {margin: 5rem 6%;}
+
+.video-top {margin-top: 0;}
+
+.video-bot {margin-bottom: 0;}
 
 .video-container {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
     margin-top: 1.5rem;
-    margin-bottom: 5rem;
 }
 
 .ytube-vid {
@@ -232,9 +231,29 @@ hr {
 
 @media only screen and (min-width: 700px){
 
+    .portfolio h4 {font-size: 2.5rem;}
+
+    .portfolio h5 {font-size: 1.75rem;}
+
+    .video-frame {margin: 5rem 5%;}
+
+    .video-top {margin-top: 0;}
+
+    .video-bot {margin-bottom: 0;}
+
+    .video-container {
+        margin-top: 2rem;
+    }
+
 }
 
 @media only screen and (min-width: 1280px){
+    
+    .video-frame {margin: 5rem 10%;}
+
+    .video-top {margin-top: 0;}
+
+    .video-bot {margin-bottom: 0;}
 
 }
 
@@ -271,7 +290,7 @@ ABOUT-ME
 
 @media only screen and (min-width: 1280px){
 
-    .photo-group {margin: 2rem 3%;}
+    .photo-group {margin: 2rem 10%;}
 
     .med-photo {width: 33.333%;}
     
