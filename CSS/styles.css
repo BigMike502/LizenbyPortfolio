@@ -21,13 +21,13 @@ body {
     font-weight: 600;
     font-size: 2.5rem;
     padding: 5px;
-    margin: 3rem 0;
+    margin: 15rem 0 3rem 0;
     background-image: linear-gradient(to right,#FDFFF0,rgba(104, 90, 70, .4),rgba(104, 90, 70, .4),#FDFFF0);
 }
 
 p {
-    font-size: 1.4rem;
-    margin: 2rem 14%;
+    font-size: 1.1rem;
+    margin: 2rem 10%;
     text-align: justify;
 }
 
@@ -64,6 +64,12 @@ p {
 }
 
 @media only screen and (min-width: 700px){
+
+    p {
+        font-size: 1.4rem;
+        margin: 2rem 14%;
+    }
+
     .title {
         font-size: 3rem;
         background-image: linear-gradient(to right,#FDFFF0,#FDFFF0,rgba(104, 90, 70, .4),rgba(104, 90, 70, .4),#FDFFF0,#FDFFF0);
@@ -185,19 +191,18 @@ button{display:none;}
 
 }
 
-
 /*---------- 
 PORTFOLIO
 ----------*/
 
-.portfolio .title {margin-top: 0;}
+.portfolio .title {margin-top: 4rem;}
 
 .portfolio h4 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 
-hr {
+.portfolio hr {
     width: 50%;
     margin: .5rem auto;
     border: 2px solid rgba(104, 90, 70, 1);
@@ -231,7 +236,9 @@ hr {
 
 @media only screen and (min-width: 700px){
 
-    .portfolio h4 {font-size: 2.5rem;}
+    .portfolio h4 {font-size: 2.75rem;}
+
+    .portfolio hr {width:40%;}
 
     .portfolio h5 {font-size: 1.75rem;}
 
@@ -241,13 +248,13 @@ hr {
 
     .video-bot {margin-bottom: 0;}
 
-    .video-container {
-        margin-top: 2rem;
-    }
+    .video-container {margin-top: 2rem;}
 
 }
 
 @media only screen and (min-width: 1280px){
+
+    .portfolio hr {width: 30%;}
     
     .video-frame {margin: 5rem 10%;}
 
@@ -296,7 +303,7 @@ ABOUT-ME
     
     .aboutme-photo:nth-child(1) {
         width: 100%;
-        padding: 1rem 0;
+        padding: 0 0 1rem 0;
     }
 
     .aboutme-photo:nth-child(2) {padding: 1rem 1rem 1rem 0;}
@@ -311,12 +318,120 @@ ABOUT-ME
 CONTACT-ME
 ----------*/
 
+.contact-me{
+    margin-bottom: 5rem;
+}
+
+.contact-me h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.contact-me hr {
+    width: 75%;
+    margin: .5rem auto;
+    border: 1px solid rgba(104, 90, 70, 1);
+    border-radius: 1rem;
+}
+
+form {
+    margin: 1rem auto;
+    width: 21rem;
+}
+
+
+form label {
+    display: block;
+    padding-top: .75rem;
+    padding-bottom: .25rem;
+    text-align: left;
+    font-size: 1.25rem;
+}
+
+form .red {
+    font-size: 1.25rem;
+    color: #ff6a6a;
+}
+
+form input,textarea {
+    margin: .25rem auto 0 auto;
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    padding: .75rem;
+    background-color: rgb(221, 211, 198);
+    border: 1px solid rgb(173, 166, 157);
+    border-radius: 5px;
+}
+
+
+/* input:required {border: 2px solid #ff6a6a;}
+
+input:required:valid {border-color: darkseagreen;} */
+
+input:focus, textarea:focus {background-color: rgb(184, 174, 162);}
+
+.contact-me h5 {font-size: 1.25rem;}
+
+.submitBtn {
+    margin-top: 2rem;
+    background-color: rgba(104, 90, 70, 1);
+    color: #FDFFF0;
+    font-size: 1.75rem;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+}
+
+.close {display: none;}
+
+.span-error {
+    display: none;
+}
+
+section.error .span-error{
+    display: block;
+    text-align: left;
+    font-size: .9rem;
+    color: red;
+    padding-left: .5rem;
+}
+
+section.error div {
+    background-color: rgba(255, 0, 0, .3);
+}
+
+section p {
+    margin: 1rem 0;
+    display: none; 
+    font-size: .9rem;
+}
+
+section.error p{
+    display: block;
+    border: solid 1px red;
+    background-color: rgba(255, 0, 0, .3);
+    padding: .3rem 3%;
+}
 
 @media only screen and (min-width: 700px){
+
+    form {
+        margin: 1rem auto;
+        width: 35rem;
+    }
+
+    .contact-me hr {width: 45%}
+
+    .contact-me h5 {font-size: 1.5rem;}
 
 }
 
 @media only screen and (min-width: 1280px){
+
+    .contact-me hr {
+        width: 30%
+    }
 
 }
 
