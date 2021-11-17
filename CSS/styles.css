@@ -21,7 +21,7 @@ body {
     font-weight: 600;
     font-size: 2.5rem;
     padding: 5px;
-    margin: 15rem 0 3rem 0;
+    margin: 10rem 0 3rem 0;
     background-image: linear-gradient(to right,#FDFFF0,rgba(104, 90, 70, .4),rgba(104, 90, 70, .4),#FDFFF0);
 }
 
@@ -328,9 +328,8 @@ CONTACT-ME
 }
 
 .contact-me h4 {
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 800;
-    text-transform: uppercase;
 }
 
 .contact-me hr {
@@ -423,9 +422,12 @@ section.error p{
         width: 35rem;
     }
 
-    .contact-me hr {width: 45%}
+    .contact-me h4 {
+        font-size: 2rem;
+        font-weight: 800;
+    }
 
-    .contact-me h5 {font-size: 1.5rem;}
+    .contact-me hr {width: 45%}
 
 }
 
@@ -441,12 +443,12 @@ section.error p{
 THANK YOU HTML
 ----------*/
 
-.thank-you {
+.thank-you{
     display: block;
     margin: 3rem 6%;
 }
 
-.thank-you-msg h4 {
+.thank-you-msg h4, .thank-you span {
     font-size: 1.75rem;
     font-weight: 800;
 }
@@ -470,11 +472,19 @@ THANK YOU HTML
 
 @media only screen and (min-width: 700px){
 
+    .thankyou-photo {
+        width: 90%;
+    }
+
     .thank-you-msg hr {width: 51%;}
 
 }
 
 @media only screen and (min-width: 1280px){
+
+    .thankyou-photo {
+        width: 75%;
+    }
 
     .thank-you-msg hr {width: 32%;}
 
