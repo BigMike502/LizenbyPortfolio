@@ -50,7 +50,7 @@
                     </div> 
                 </div>
                 <div class="video-frame">
-                    <h4>Louisville Ballet's<br>"The Nutcracker"<br> WDRB Media</h4>
+                    <h4>Louisville Ballet's<br>&ldquo;The Nutcracker&rdquo;<br> WDRB Media</h4>
                     <hr>
                     <h5>Director - Video Production</h5>
                     <div class="video-container">
@@ -144,14 +144,14 @@
                     my services can better your broadcast. 
                     </h5>
                 </div>
-                <form method="get" action="index.html">
+                <form name="contactForm" method="get" action="thankyou.html" onsubmit="return validateForm()">
                     <section id="formProblem" class=""><p>There is an error with one of the fields.<br>Check highlights below.</p></section>
                     <section id="fullName" class="">
-                        <label><div>Name*</div><input type="text" id="name" name="name" required></label>
+                        <label><div>Name*</div><input type="text" id="name" name="name"></label>
                         <span class="span-error">Please provide full Name</span>
                     </section>  
                     <section id="email" class="">
-                        <label><div>Email*</div><input type="text" id="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label><div>Email*</div><input type="text" id="email" name="email" placeholder="someone@gmail.com"></label>
                         <span class="span-error">Please provide correct email address</span>
                     </section>
                     <section id="message" class="">
@@ -162,13 +162,6 @@
                         
                     
                 </form>
-            </div>
-            <div class="close" id="message-sent">
-                <h4>Your Message has been sent!</h4>
-                <hr>
-                <h5>I will get in touch with you 
-                <br> as soon as possible. 
-                <br> Thank You! </h5>
             </div>
 
         </section>

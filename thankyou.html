@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Lizenby - Thank You!</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    <link type="text/css" href="css/reset.css" rel="stylesheet">
+    <link type="text/css" href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/786267e3c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="limited clearfix image_helper" id="top">
+        <div class="page-title-small page-title-med page-title-lrg clearfix background-image" style="background-image: url('imgs/photos/Kyle4.jpg');">
+            <div class="title-shift">
+                <h1>Kyle Lizenby</h1>
+                <h2>Television Director</h2>
+            </div>    
+       </div>
+    </header>
+   
+    <nav class="limited nav-sml nav-med nav-lrg clearfix">
+        <div class="buttonbox">
+            <button class="hamburgerBtn" id="hamburgerBtn">
+            <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <ul class="primary-nav" id="primary-nav">
+            <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
+            <li><a href="#about-me" onclick="closeMenu()">About</a></li>
+            <li><a href="#contact-me" onclick="closeMenu()">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main class="limited">
+        <Section class="thank-you clearfix">
+            <img class="thankyou-photo thnk-sml-photo thank-med-photo" 
+                    src="imgs/photos/Kyle2.jpg"
+                    srcset="
+                    imgs/photos/aboutme/sml-kyle2.jpg 620w,
+                    imgs/photos/aboutme/med-kyle2.jpg 1000w, 
+                    imgs/photos/aboutme/lrg-kyle2.jpg 1920w
+                    "                
+                    alt="Kyle Lizenby photo infront of WDRB Logo">
+            <div class="thank-you-msg" id="message-sent">
+                <h4 id="message-sent">Your message has been sent!</h4>
+                <hr>
+                <h5>I will get in touch with you 
+                <br> as soon as possible. 
+                <br> Thank You! </h5>
+            </div>
+        </Section>
+    </main>
+
+   <footer class="footer  clearfix">
+        <div class="links">
+            <ul>
+                <li><a href="#top">to top</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <button type="button" onclick="">Send Message</button>
+            </ul>
+        </div>
+        <div class="social">
+           <ul>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+           </ul>
+       </div>
+   </footer>
+   
+   <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
