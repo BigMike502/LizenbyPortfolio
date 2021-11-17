@@ -13,8 +13,6 @@ As of NOV 17th 2021 the project is Complete for Turn in, There may be some tweek
     
     The Header, Nav, and Foother have diffrent state changes between all 3 media queries. More Information below in CSS and JavaScript sections.
 
-    All paragraphs are at a 6% padding from the edge of the parrent by deafault. (left and right).
-
     As I have been working in this project I have been looking at Edge, Firefox and Chrome.
 
     ### Portfolio Section : I made some manipulation's to the Youtube Iframes.  I Removed the Youtube Logo that generally shows up on the right side of the youtube controls for embedded contact.  I also changed the rel=0 so the "recomended" video's when the video is paused or ends pops up with video's from the clients channel.  I also made it so the controls when the video is playing disaperaed with autohide=1.  These changes are in the src link.  These are NOT default option avalible in youtube but are part of the API for youtube.
