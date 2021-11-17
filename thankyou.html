@@ -30,13 +30,13 @@
             </button>
         </div>
         <ul class="primary-nav" id="primary-nav">
-            <li><a href="#portfolio" onclick="closeMenu()">Portfolio</a></li>
-            <li><a href="#about-me" onclick="closeMenu()">About</a></li>
-            <li><a href="#contact-me" onclick="closeMenu()">Contact</a></li>
+            <li><a href="index.html#portfolio" onclick="closeMenu()">Portfolio</a></li>
+            <li><a href="index.html#about-me" onclick="closeMenu()">About</a></li>
+            <li><a href="index.html#contact-me" onclick="closeMenu()">Contact</a></li>
         </ul>
     </nav>
     
-    <main class="limited">
+    <main class="limited" >
         <Section class="thank-you clearfix">
             <img class="thankyou-photo thnk-sml-photo thank-med-photo" 
                     src="imgs/photos/Kyle2.jpg"
@@ -47,11 +47,11 @@
                     "                
                     alt="Kyle Lizenby photo infront of WDRB Logo">
             <div class="thank-you-msg" id="message-sent">
-                <h4 id="message-sent">Your message has been sent!</h4>
+                <h4 id="message-sent">Your message has been sent <span id="nameFinal"></span>!</h4>
                 <hr>
                 <h5>I will get in touch with you 
-                <br> as soon as possible. 
-                <br> Thank You! </h5>
+                <br> as soon as possible. </h5>
+                <br> <h4>Thank You! </h4>
             </div>
         </Section>
     </main>
@@ -59,21 +59,20 @@
    <footer class="footer  clearfix">
         <div class="links">
             <ul>
-                <li><a href="#top">to top</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#contact-me">Contact</a></li>
-                <button type="button" onclick="">Send Message</button>
+                <li><a href="index.html">To Home</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#about-me">About</a></li>
+                <li><a href="index.html#contact-me">Contact</a></li>
             </ul>
         </div>
         <div class="social">
            <ul>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="https://twitter.com/Lizenby" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://www.instagram.com/klizenby/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
            </ul>
        </div>
    </footer>
    
-   <script type="text/javascript" src="script.js"></script>
+   <script onload="finalName()" type="text/javascript" src="script.js"></script>
 </body>
 </html>

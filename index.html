@@ -137,28 +137,25 @@
             </div>
             <div class="" id="contact-me-body">
                 <div class="contact-me-top">
-                    <h4>Give me a Shout!</h4>
-                    <hr>
-                    <h5>            
-                    Get in touch with me to see how <br>
-                    my services can better your broadcast. 
-                    </h5>
+                    <h4>Get in touch with me to see how<br>
+                        my services can better your broadcast!</h4>
+
                 </div>
                 <form name="contactForm" method="get" action="thankyou.html" onsubmit="return validateForm()">
                     <section id="formProblem" class=""><p>There is an error with one of the fields.<br>Check highlights below.</p></section>
                     <section id="fullName" class="">
                         <label><div>Name*</div><input type="text" id="name" name="name"></label>
-                        <span class="span-error">Please provide full Name</span>
+                        <span class="span-error">Please provide full name.</span>
                     </section>  
                     <section id="email" class="">
                         <label><div>Email*</div><input type="text" id="email" name="email" placeholder="someone@gmail.com"></label>
-                        <span class="span-error">Please provide correct email address</span>
+                        <span class="span-error">Please provide correct email address.</span>
                     </section>
                     <section id="message" class="">
-                        <label><div>Message*</div><textarea name="message"></textarea></label>
+                        <label><div>Message*</div><textarea id="message" name="message" placeholder="Your message here."></textarea></label>
                         <span class="span-error">Please provide at least 10 characters in message field!</span>
                     </section>
-                    <input type="submit" value="Send Message" class="submitBtn">
+                    <input type="submit" value="Send Message" class="submitBtn" id="btn1">
                         
                     
                 </form>
@@ -174,13 +171,12 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#contact-me">Contact</a></li>
-                <button type="button" onclick="">Send Message</button>
             </ul>
         </div>
         <div class="social">
            <ul>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
-                <li><a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="https://twitter.com/Lizenby" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://www.instagram.com/klizenby/" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
            </ul>
        </div>
    </footer>
