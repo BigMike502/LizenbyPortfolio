@@ -31,10 +31,7 @@ p {
     text-align: justify;
 }
 
-.limited {
-    max-width: 1280px;
-    margin:auto;
-}
+.limited {max-width: 1280px;margin:auto;}
 
 .clearfix:after {
     content: "";
@@ -65,10 +62,7 @@ p {
 
 @media only screen and (min-width: 700px){
 
-    p {
-        font-size: 1.4rem;
-        margin: 2rem 10%;
-    }
+    p {font-size: 1.4rem;margin: 2rem 10%;}
 
     .title {
         font-size: 3rem;
@@ -78,10 +72,7 @@ p {
 
 @media only screen and (min-width: 1280px){
 
-    p {
-        font-size: 1.4rem;
-        margin: 2rem 14%;
-    }
+    p {font-size: 1.4rem;margin: 2rem 14%;}
 
 }
 
@@ -91,15 +82,9 @@ HEADER
 
 .page-title-small {padding: 1rem 0 2.5rem 0;}
 
-.page-title-small h1 {
-    font-weight: 800;
-    font-size: 15vw;
-}
+.page-title-small h1 {font-weight: 800;font-size: 15vw;}
 
-.page-title-small h2 {
-    font-weight: 600;
-    font-size: 7vw;
-}
+.page-title-small h2 {font-weight: 600;font-size: 7vw;}
 
 @media only screen and (min-width: 1280px){
 
@@ -109,10 +94,7 @@ HEADER
 
 .page-title-lrg h2 {font-size:2.5rem;}
 
-.title-shift {
-    float: right;
-    padding-right: 4.5rem;
-}
+.title-shift {float: right;padding-right: 4.5rem;}
 
 header .background-image {background-position-y: -200px;}
 
@@ -136,10 +118,7 @@ button#hamburgerBtn {
     padding: .20rem 0 0 0 ;
 }
 
-.nav-sml ul{
-    display: none;
-    background-color: rgba(104, 90, 70, .4);
-}
+.nav-sml ul{display: none;background-color: rgba(104, 90, 70, .4);}
 
 .nav-sml ul.open{display: block;}
 
@@ -182,15 +161,9 @@ button{display:none;}
 
 @media only screen and (min-width: 1280px){
 
-.nav-lrg ul {
-    justify-content: right;
-    padding: 0 4% 0 0;
-}
+.nav-lrg ul {justify-content: right;padding: 0 4% 0 0;}
 
-.nav-lrg li {
-    width:auto;
-    padding: 2px 1.7rem 2px 1.7rem;
-}
+.nav-lrg li {width:auto;padding: 2px 1.7rem 2px 1.7rem;}
 
 .nav-sml li:hover {background-color: rgba(255, 255, 255, .25);}
 
@@ -202,10 +175,7 @@ PORTFOLIO
 
 .portfolio .title {margin-top: 4rem;}
 
-.portfolio h4 {
-    font-size: 1.75rem;
-    font-weight: 800;
-}
+.portfolio h4 {font-size: 1.75rem;font-weight: 800;}
 
 .portfolio hr {
     width: 50%;
@@ -306,10 +276,7 @@ ABOUT-ME
 
     .med-photo {width: 33.333%;}
     
-    .aboutme-photo:nth-child(1) {
-        width: 100%;
-        padding: 0 0 1rem 0;
-    }
+    .aboutme-photo:nth-child(1) {width: 100%;padding: 0 0 1rem 0;}
 
     .aboutme-photo:nth-child(2) {padding: 1rem 1rem 1rem 0;}
 
@@ -323,14 +290,9 @@ ABOUT-ME
 CONTACT-ME
 ----------*/
 
-.contact-me{
-    margin-bottom: 5rem;
-}
+.contact-me{margin-bottom: 5rem;}
 
-.contact-me h4 {
-    font-size: 1.25rem;
-    font-weight: 800;
-}
+.contact-me h4 {font-size: 1.25rem;font-weight: 800;}
 
 .contact-me hr {
     width: 75%;
@@ -339,10 +301,7 @@ CONTACT-ME
     border-radius: 1rem;
 }
 
-form {
-    margin: 1rem auto;
-    width: 21rem;
-}
+form {margin: 1rem auto; width: 21rem;}
 
 form label {
     display: block;
@@ -352,10 +311,7 @@ form label {
     font-size: 1.25rem;
 }
 
-form .red {
-    font-size: 1.25rem;
-    color: #ff6a6a;
-}
+form .red {font-size: 1.25rem; color: #ff6a6a;}
 
 form input,textarea {
     margin: .25rem auto 0 auto;
@@ -367,11 +323,6 @@ form input,textarea {
     border: 1px solid rgb(173, 166, 157);
     border-radius: 5px;
 }
-
-
-/* input:required {border: 2px solid #ff6a6a;}
-
-input:required:valid {border-color: darkseagreen;} */
 
 input:focus, textarea:focus {background-color: rgb(184, 174, 162);}
 
@@ -386,9 +337,7 @@ input:focus, textarea:focus {background-color: rgb(184, 174, 162);}
     padding: .5rem 1rem;
 }
 
-.span-error {
-    display: none;
-}
+.span-error {display: none;}
 
 section.error .span-error{
     display: block;
@@ -398,9 +347,7 @@ section.error .span-error{
     padding-left: .5rem;
 }
 
-section.error div {
-    background-color: rgba(255, 0, 0, .3);
-}
+section.error div {background-color: rgba(255, 0, 0, .3);}
 
 section form p {
     margin: 1rem 0;
@@ -417,15 +364,9 @@ section.error p{
 
 @media only screen and (min-width: 700px){
 
-    form {
-        margin: 1rem auto;
-        width: 35rem;
-    }
+    form {margin: 1rem auto; width: 35rem;}
 
-    .contact-me h4 {
-        font-size: 2rem;
-        font-weight: 800;
-    }
+    .contact-me h4 {font-size: 2rem; font-weight: 800;}
 
     .contact-me hr {width: 45%}
 
@@ -433,9 +374,7 @@ section.error p{
 
 @media only screen and (min-width: 1280px){
 
-    .contact-me hr {
-        width: 30%
-    }
+    .contact-me hr {width: 30%}
 
 }
 
@@ -443,15 +382,9 @@ section.error p{
 THANK YOU HTML
 ----------*/
 
-.thank-you{
-    display: block;
-    margin: 3rem 6%;
-}
+.thank-you{display: block; margin: 3rem 6%;}
 
-.thank-you-msg h4, .thank-you span {
-    font-size: 1.75rem;
-    font-weight: 800;
-}
+.thank-you-msg h4, .thank-you span {font-size: 1.75rem; font-weight: 800;}
 
 .thank-you-msg hr {
     width: 95%;
@@ -462,19 +395,13 @@ THANK YOU HTML
 
 .thank-you-msg h5 {font-size: 1.5rem;}
 
-.thank-you-msg {
-    margin-top: 2rem;
-}
+.thank-you-msg {margin-top: 2rem;}
 
-.thankyou-photo {
-    filter: drop-shadow(10px 10px 5px rgba(104, 90, 70, 1));
-}
+.thankyou-photo {filter: drop-shadow(10px 10px 5px rgba(104, 90, 70, 1));}
 
 @media only screen and (min-width: 700px){
 
-    .thankyou-photo {
-        width: 90%;
-    }
+    .thankyou-photo {width: 90%;}
 
     .thank-you-msg hr {width: 51%;}
 
@@ -482,24 +409,16 @@ THANK YOU HTML
 
 @media only screen and (min-width: 1280px){
 
-    .thankyou-photo {
-        width: 75%;
-    }
+    .thankyou-photo {width: 75%;}
 
     .thank-you-msg hr {width: 32%;}
-
 }
-
-
 
 /*---------- 
 FOOTER
 ----------*/
 
-footer{
-    display: block;
-    background-color: rgba(104, 90, 70, .7);
-}
+footer{display: block;background-color: rgba(104, 90, 70, .7);}
 
 .links {background-color: rgba(104, 90, 70, .7);}
 
@@ -526,10 +445,7 @@ footer{
     padding: 5px;
 }
 
-.social a {
-    color: #FDFFF0;
-    font-size: 2.5rem;
-}
+.social a {color: #FDFFF0;font-size: 2.5rem;}
 
 .social li:first-child {padding-left: 4px;}
 
