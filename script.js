@@ -14,7 +14,7 @@ function closeMenu() {
 function validateForm() {
     let status = true;
     const verifyEmail = /\S+@\S+\.\S+/
-     let x;
+    let x;
 //Checking the Name
     x = document.forms.contactForm.name.value;
       
