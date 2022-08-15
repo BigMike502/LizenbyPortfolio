@@ -1,0 +1,35 @@
+/*---------- 
+THANK YOU HTML
+----------*/
+
+.thank-you{display: block; margin: 3rem 6%;}
+
+.thank-you-msg h4, .thank-you span {font-size: 1.75rem; font-weight: 800;}
+
+.thank-you-msg hr {
+    width: 95%;
+    margin: .5rem auto;
+    border: 2px solid rgba(104, 90, 70, 1);
+    border-radius: 1rem;
+}
+
+.thank-you-msg h5 {font-size: 1.5rem;}
+
+.thank-you-msg {margin-top: 2rem;}
+
+.thankyou-photo {filter: drop-shadow(10px 10px 5px rgba(104, 90, 70, 1));}
+
+@media only screen and (min-width: 700px){
+
+    .thankyou-photo {width: 90%;}
+
+    .thank-you-msg hr {width: 51%;}
+
+}
+
+@media only screen and (min-width: 1280px){
+
+    .thankyou-photo {width: 75%;}
+
+    .thank-you-msg hr {width: 32%;}
+}
